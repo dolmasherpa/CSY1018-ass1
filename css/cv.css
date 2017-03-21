@@ -1,0 +1,109 @@
+body{
+color:black;
+padding:2px 20px 30px 10px;
+}
+Header{
+  color:linen;
+  width:100%;
+  height:100px;
+  text-align:center;
+  background:purple;
+  flex-direction: column;
+  margin:0px;
+}
+header h1{
+  font-family:cursive;
+  text-align:center;
+  position:relative;
+  padding :10px;
+  opacity: 1;
+  animation-name:opa;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes opa {
+    0%{opacity: 1}
+  20%{opacity: 0.6}
+  40%{opacity: 0.4}
+  60%{opacity: 0.0}
+  80%{opacity: 0.4}
+  90%{opacity: 0.6}
+  100%{opacity: 1}
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  background: ;
+}
+.div1{
+  flex-direction:column;
+  background-color:lightblue;
+  width:20%;
+  height:350px;
+  text-shadow: 20px;
+}
+section div.div2{
+  height: 350px;
+}
+nav{
+  background:lightblue;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+}
+a{
+  text-decoration: none;
+  color: none;
+}
+nav ul{
+  list-style-type:none;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+nav ul li{
+  margin: 10px 0px 10px 0px;
+  background: lightblue;
+  padding: 0px 0px 0px 10px;
+}
+ nav ul li:hover{
+   background: black;
+   color: white;
+ }
+
+main{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  list-style-type: none;
+}
+main ul{
+  list-style-type: none;
+}
+main ul li{
+  margin: 5px 0px 5px 0px;
+
+}
+main ul li ol{
+  margin: 20px;
+}
+div.div2{
+background-color:lightblue;
+  width: 20%;
+  height:50px;
+  dispaly:flex;
+  flex-direction:row;
+}
+footer{
+  background: silver;
+  height: 50px;
+  width: 100%;
+  text-shadow: 0px 1px white;
+  padding:5px;
+  text-align:right;
+}
