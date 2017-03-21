@@ -35,8 +35,8 @@ header h1{
 section{
   display: flex;
   flex-direction: row;
-  height: 350px;
-  background: ;
+  height: 900px;
+
 }
 .div1{
   flex-direction:column;
@@ -46,7 +46,11 @@ section{
   text-shadow: 20px;
 }
 section div.div2{
-  height: 350px;
+   background-color:lightblue;
+  width:20%;
+  height:900px;
+
+
 }
 nav{
   background:lightblue;
