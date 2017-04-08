@@ -8,22 +8,34 @@ body{   /* css for body */
   background-size: auto;
 
 }
-Header{
+header{
   color:linen;
-  width:100%;
-  height:100px;
+  width:150%;
+  height:150px;
   text-align:center;
   background:purple;
   flex-direction: column;
   margin:0px;
+  padding:10px;
 }
 
 header h1{
-  font-family:cursive;
   text-align:center;
   position:relative;
   padding :10px;
 
+}
+header img{
+  border-radius: 90px;
+  padding:2px;
+  display:flex;
+  flex-direction:row;
+  height:50px;
+}
+div{
+  font-style: oblique;
+  padding:5px;
+  font-size:20px;
 }
 
 
@@ -46,7 +58,6 @@ section{
 nav{
   background:lightblue;
   width: 20%;
-
 }
 a{
   text-decoration: none;
@@ -65,18 +76,17 @@ nav ul li{
   padding: 0px 10px 0px 10px;
 }
  nav ul li:hover{
-   background: pink;
-   color: blue;
+   background: black;
+   color: white;
  }
-
 main{
   width: 80%;
   display: flex;
   justify-content: space-around;
-
 }
 main form{
   width: 300px;
+  padding:20px;
 }
 section main form fieldset div{
   margin-top: 20px;
@@ -93,25 +103,28 @@ section main form fieldset div input[type=submit]{
    margin: 6px 2px;
    cursor: pointer;
 }
-
 footer{
   background:tomato;
-  height: 100px;
-  width: 100%;
   text-shadow: 0px 1px white;
-  padding:5px;
-  text-align:right;
+  display: flex;
+  flex-direction: row;
 }
-footer img{
-  padding:10px;
-height:50px;
+.copyright{
+   width: 50%;
 }
-footer div{
-  text-align:center;
-  padding:10px;
-  display:flex;
-  flex-direction:row;
+.foot{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
 }
+.foot img{
+  width: 50px;
+  height: 50px;
+  padding: 2%;
+  margin-top: 20%;
+}
+
+
 
 @media (max-width: 425px) {
   section{
@@ -134,5 +147,23 @@ footer div{
 form .contact fieldset div{
   margin-top: 3px;
   background: green;
-
+}
+footer{
+  background:tomato;
+  text-shadow: 0px 1px white;
+  display: flex;
+  flex-direction: row;
+}
+.copyright{
+   width: 50%;
+}
+.foot{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.foot img{
+  height: 50px;
+  padding: 5px;
+  }
 }

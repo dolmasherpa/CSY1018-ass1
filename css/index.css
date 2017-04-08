@@ -7,7 +7,7 @@ background-repeat: no-repeat;
 background-size: auto;
 
 }
-Header{
+header{
   color:linen;
   width:150%;
   height:150px;
@@ -48,8 +48,6 @@ section{
   display:flex;
   flex-direction:row;
   height:900px;
-
-
 }
 .div1{
   flex-direction:column;
@@ -90,7 +88,7 @@ nav ul li{
 main{
   width: 60%;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
 
 }
 section main p{
@@ -99,14 +97,11 @@ section main p{
   width: 90%;
   color:white;
 }
-
-
-
 main img{
   height: 200px;
   width: 200px;
-  border-radius:90px;
-  padding:10px;
+  padding:50px;
+  border-radius:100px;
 }
 div.div2{
 background-color:lightblue;
@@ -114,24 +109,32 @@ background-color:lightblue;
 }
 footer{
   background:tomato;
-  height: 150px;
-  width: 150%;
   text-shadow: 0px 1px white;
-  padding:5px;
-  text-align:left;
+  display: flex;
+  flex-direction: row;
 }
-footer div img{
-  padding:10px;
-  height:50px;
-
+.copyright{
+   width: 50%;
 }
-footer div h2{
-  text-align:center;
-  padding:10px;
-
+.foot{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
 }
-
+.foot img{
+  width: 50px;
+  height: 50px;
+  padding: 2%;
+  margin-top: 20%;
+}
 @media (max-width: 425px) {
+  header img{
+    border-radius: 90px;
+    padding:2px;
+    display:flex;
+    flex-direction:row;
+    height:10px;
+  }
   section{
     flex-direction: column;
   }
@@ -149,7 +152,18 @@ footer div h2{
     justify-content: center;
     align-items: center;
   }
-  section div.div2{
-    width: 100%;
+  footer{
+    flex-direction: column;
+  }
+  footer div .copyright{
+    font-size: 10px;
+  }
+  footer div .foot h2{
+    font-size: 20px;
+    background: green;
+  }
+  footer div .foot img{
+    height: 10px;
+    width: 10px;
   }
 }
