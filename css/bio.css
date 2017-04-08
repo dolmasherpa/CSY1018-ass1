@@ -1,4 +1,3 @@
-
 body{   /* css for body */
   color:black;
 padding:2px 20px 30px 10px;
@@ -52,7 +51,6 @@ section{
   background-color:lightblue;
   width:20%;
   height:500px;
-  text-shadow: 20px;
 }
 nav{
   background:lightblue;
@@ -62,7 +60,6 @@ nav{
 }
 a{
   text-decoration: none;
-  color: none;
   display: block;
 }
 nav ul{
@@ -159,6 +156,5 @@ footer{
     height: 50px;
     padding: 2%;
     margin-top: 20%;
+    }
   }
-  
-}

@@ -54,19 +54,15 @@ section{
   background-color:lightblue;
   width:20%;
   height:500px;
-  text-shadow: 20px;
-
 }
 nav{
   background:lightblue;
   width: 20%;
   /*display: flex;
   flex-direction: column;*/
-
 }
 a{
   text-decoration: none;
-  color: none;
   display: block;
 }
 nav ul{
@@ -84,12 +80,10 @@ nav ul li{
    background: black;
    color: white;
  }
-
 main{
   width: 60%;
   display: flex;
   /*justify-content: center;*/
-
 }
 section main p{
   font-size: 20px;
@@ -102,10 +96,6 @@ main img{
   width: 200px;
   padding:50px;
   border-radius:100px;
-}
-div.div2{
-background-color:lightblue;
-  width: 20%;
 }
 footer{
   background:tomato;
